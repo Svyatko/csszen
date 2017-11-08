@@ -3,7 +3,7 @@
 body {
 	margin: 0 auto;
 	padding: 0;
-	width: 100%;
+	max-width: 1024px;
 }
 
 section {
@@ -30,6 +30,11 @@ header h1 {
 
 section div, #zen-supporting, aside, h2 {
 	font-family: 'Permanent Marker', cursive;
+}
+
+section p {
+	max-width: 50%;
+	margin-top: -20px; 
 }
 
 #zen-supporting h3 {
